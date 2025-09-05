@@ -1,3 +1,13 @@
-# Voltmeter-
-โค้ด Arduino โปรเจค Voltmeter แสดงผลบน OLED และ Blynk
-![alt text](image.png)
+# SMART VOLTMETER  
+
+โปรเจกต์นี้เป็นเครื่องวัดแรงดันไฟฟ้าแบบพกพา ใช้ **Arduino Nano**, **0–25V DC Voltage Sensor** และ **I2C OLED Display** เพื่อแสดงผลแรงดันไฟฟ้าแบบ Real-time  
+
+## ฟีเจอร์  
+- วัดแรงดันไฟฟ้าในช่วง 0–25V  
+- แสดงผลทันทีบนจอ OLED  
+- ขนาดเล็ก พกพาสะดวก  
+
+## การทำงาน  
+1. Arduino Nano รับสัญญาณจาก Voltage Sensor  
+2. ทำการประมวลผลและแปลงค่าให้อยู่ในรูปแรงดันไฟฟ้าที่ถูกต้อง  
+3. แสดงผลแรงดันไฟฟ้าแบบ Real-time บนจอ OLED  
