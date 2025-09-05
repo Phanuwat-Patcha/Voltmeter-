@@ -11,3 +11,5 @@
 1. Arduino Nano รับสัญญาณจาก Voltage Sensor  
 2. ทำการประมวลผลและแปลงค่าให้อยู่ในรูปแรงดันไฟฟ้าที่ถูกต้อง  
 3. แสดงผลแรงดันไฟฟ้าแบบ Real-time บนจอ OLED  
+
+![Smart Voltmeter](image.png)  
